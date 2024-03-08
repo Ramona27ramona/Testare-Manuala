@@ -1,0 +1,11 @@
+Scenarii test Coffeehouse
+
+1. Verificam linkul de acces
+2. Verificam componenta paginii principale
+3. Verificam emblema companiei la functionalitate
+4. Verificam redirectionarea de la butoanele din Header
+5. Verificam pagina Menu
+6. Verificam pagina Offers
+7. Verificam pagina Contacts
+8. Verificam functionalitatea butonului ,,Buy Now"
+9. Verificam culoarea butonului ,,Buy Now"

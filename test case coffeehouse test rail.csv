@@ -1,0 +1,111 @@
+ID,Title,Assigned To,Automation Type,Created By,Created On,Estimate,Expected Result,Forecast,Goals,Mission,Preconditions,Priority,References,Section,Section Depth,Section Description,Section Hierarchy,Status,Steps,Steps,Steps (Additional Info),Steps (Expected Result),Steps (References),Steps (Shared step ID),Steps (Step),Suite,Suite ID,Template,Type,Updated By,Updated On
+C1,Verificam accesul prin link direct,Ramona Trinc, None,Ramona Trinc,3/2/2024 9:10 PM,,"Accesand linkul, pagina se deschide cu succes",,,,,Critical,QAM-1,CoffeeHouse,0,,CoffeeHouse,Design,1. Userul acceseaza aplicatia prin link direct: http://cofeehouse.web.app,,,,,,,Master,S2,Test Case (Text),Smoke & Sanity,Ramona Trinc,3/2/2024 9:25 PM
+C12,Verificam accesul prin link direct gresit( scenariu negativ),Ramona Trinc, None,Ramona Trinc,3/3/2024 8:39 PM,,"Accesand linkul, userul va fi redirectionat catre o pagina cu eroare",,,,,Critical,QAM-1,CoffeeHouse,0,,CoffeeHouse,Design,1. Userul acceseaza aplicatia prin link direct: http://cofeehouse.web.app/linkgresit,,,,,,,Master,S2,Test Case (Text),Smoke & Sanity,Ramona Trinc,3/3/2024 8:42 PM
+C2,Verificam componenta paginii principale,Ramona Trinc, None,Ramona Trinc,3/2/2024 9:28 PM,,"Pagina principala a aplicatiei s-a incarcat cu urmatoarele elemente:
+
+
+Header- care contine emblema companiei si 4 butoane: Home, Menu, Offers, Contacts
+
+Corpul paginii- care contine o oferta si butonul ,,Buy Now!”.
+
+Footer-ul paginii- aici gasim patru iconite catre urmatoarele pagini de socializare sicare pot fi accesate printr-un click pe acestea: 
+
+- Facebook
+
+- Twitter
+
+- LinkedIn
+
+- Instagram
+ ",,,,,Critical,QAM-1,CoffeeHouse,0,,CoffeeHouse,Design,"1. Userul acceseaza aplicatia prin link direct: http://cofeehouse.web.app
+2. Userul face scroll la pagina",,,,,,,Master,S2,Test Case (Text),Smoke & Sanity,Ramona Trinc,3/2/2024 11:29 PM
+C3,Verificam redirectionarea catre pagina principala,Ramona Trinc, None,Ramona Trinc,3/2/2024 11:31 PM,,Userul este redirectionat catre pagina principala,,,,,Critical,QAM-1,CoffeeHouse,0,,CoffeeHouse,Design,"1. Userul acceseaza aplicatia prin link direct: http://cofeehouse.web.app
+2. Userul face click pe butonul Menu din header
+3. Userul face click pe emblema companiei
+
+",,,,,,,Master,S2,Test Case (Text),Smoke & Sanity,Ramona Trinc,3/2/2024 11:39 PM
+C4,Verificam redirectionarea de la butoanele principale din header,Ramona Trinc, None,Ramona Trinc,3/2/2024 11:39 PM,,"Pasul 2: Menu- suntem redirectionati catre pagina de meniu: https://coffeehouse.web.app/menu
+
+Pasul 3: Offers- suntem redirectionati catre pagina de oferte:  https://coffeehouse.web.app/offers 
+
+Pasul 4: Contacts- suntem redirectionati catre pagina de contacte : https://coffeehouse.web.app/contacts
+
+Pasul 5: Home- suntem redirectionati catre pagina principala http://cofeehouse.web.app
+
+ 
+",,,,,Critical,QAM-1,CoffeeHouse,0,,CoffeeHouse,Design,"1. Userul acceseaza aplicatia prin link direct: http://cofeehouse.web.app
+2. Userul face click pe butonul Menu
+3. Userul face click pe butonul Offerts
+4. Userul face click pe butonul Contacts
+5. Userul face click pe butonul Home
+
+
+
+
+",,,,,,,Master,S2,Test Case (Text),Smoke & Sanity,Ramona Trinc,3/2/2024 11:45 PM
+C5,Verificam componenta paginii Menu,Ramona Trinc, None,Ramona Trinc,3/2/2024 11:46 PM,,"Pe pagina Menu, se afiseaza tot asortimentul de cafea disponibil , sub forma de carduri, care contin o imagine a produsului si denumirea acestuia. Cardurile nu sunt clickabile si nu pot fi editate.
+",,,,,Critical,QAM-1,CoffeeHouse,0,,CoffeeHouse,Design,"1. Userul acceseaza aplicatia prin link direct: http://cofeehouse.web.app
+2. Userul face click pe butonul Menu
+
+
+
+
+
+",,,,,,,Master,S2,Test Case (Text),Smoke & Sanity,Ramona Trinc,3/2/2024 11:48 PM
+C8,Verificam cardurile de pe pagina Menu,Ramona Trinc, None,Ramona Trinc,3/2/2024 11:53 PM,,Cardul nu poate fi click-at sau editat,,,,,Critical,QAM-1,CoffeeHouse,0,,CoffeeHouse,Design,"1. Userul acceseaza aplicatia prin link direct: http://cofeehouse.web.app
+2. Userul face click pe butonul Menu
+3. Userul face click pe cardul de pe pagina Menu
+
+
+
+
+
+
+",,,,,,,Master,S2,Test Case (Text),Smoke & Sanity,Ramona Trinc,3/2/2024 11:58 PM
+C6,Verificam componenta paginii Offerts,Ramona Trinc, None,Ramona Trinc,3/2/2024 11:49 PM,,"Pe pagina Offers , se afiseaza cele mai recente oferte ale companiei, care se afiseaza sub forma de carduri, care contin o imagine promotionala a produsului si denumirea acestuia. Daca facem click pe card suntem redirectionati pe pagina ofertei.
+",,,,,Critical,QAM-1,CoffeeHouse,0,,CoffeeHouse,Design,"1. Userul acceseaza aplicatia prin link direct: http://cofeehouse.web.app
+2. Userul face click pe butonul Offerts
+
+
+
+
+
+",,,,,,,Master,S2,Test Case (Text),Smoke & Sanity,Ramona Trinc,3/3/2024 8:37 PM
+C9,Verificam cardurile de pe pagina Offerts,Ramona Trinc, None,Ramona Trinc,3/3/2024 12:00 AM,,"Daca facem click pe card, suntem redirectionati pe pagina ofertei
+",,,,,Critical,QAM-1,CoffeeHouse,0,,CoffeeHouse,Design,"1. Userul acceseaza aplicatia prin link direct: http://cofeehouse.web.app
+2. Userul face click pe butonul Offerts
+2. Userul face click pe cardul de pe pagina Offerts
+
+
+
+
+
+
+",,,,,,,Master,S2,Test Case (Text),Smoke & Sanity,Ramona Trinc,3/3/2024 12:05 AM
+C7,Verificam componenta paginii Contacts,Ramona Trinc, None,Ramona Trinc,3/2/2024 11:50 PM,,"Pe pagina de Contact, se afiseaza o scurta descriere a companiei, datele de contact al oficiului central si datele de contact catre fiecare locatie aparte.
+",,,,,Medium,QAM-1,CoffeeHouse,0,,CoffeeHouse,Design,"1. Userul acceseaza aplicatia prin link direct: http://cofeehouse.web.app
+2. Userul face click pe butonul Contacts
+
+
+
+
+
+",,,,,,,Master,S2,Test Case (Text),Regression,Ramona Trinc,3/3/2024 8:37 PM
+C10,"Verificam functionalitatea butonului ,,Buy Now""""",Ramona Trinc, None,Ramona Trinc,3/3/2024 12:06 AM,,"Daca facem click pe butonul ,,Buy Now!”, se deschide forma ,,Order Coffee”
+",,,,,Critical,QAM-1,CoffeeHouse,0,,CoffeeHouse,Design,"1. Userul acceseaza aplicatia prin link direct: http://cofeehouse.web.app
+2. Userul face click pe butonul ,,Buy Now""""
+
+
+
+
+
+",,,,,,,Master,S2,Test Case (Text),Smoke & Sanity,Ramona Trinc,3/3/2024 12:08 AM
+C11,"Verificam culoarea butonului ,,Buy Now""""",Ramona Trinc, None,Ramona Trinc,3/3/2024 12:08 AM,,"Butonul ,,Buy Now!” trebuie sa fie cu urmatoarea culoare: rgb: 218, 165, 32.
+",,,,,Low,QAM-1,CoffeeHouse,0,,CoffeeHouse,Design,"1. Userul acceseaza aplicatia prin link direct: http://cofeehouse.web.app
+2. Inspectam butonul ,,Buy Now""""
+
+
+
+
+
+",,,,,,,Master,S2,Test Case (Text),Regression,Ramona Trinc,3/3/2024 12:12 AM
