@@ -11,6 +11,11 @@ Poiect CoffeeHouse Testrail:
 https://ramonatrinc27.testrail.io/index.php?/runs/view/1&group_by=cases:section_id&group_order=asc
 
 
+RAPORT JIRA
+file:///C:/Users/Ramona/Desktop/Testare-Manuala/raport%20coffeehouse%20jira.html
+
+
+
 User Story
 
 
